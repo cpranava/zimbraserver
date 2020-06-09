@@ -46,6 +46,7 @@
   shell: ./zmcontrol start
   args:
     chdir: '/opt/zimbra/bin/'
+  become: true
   become_user: zimbra
   ignore_errors: true
 
