@@ -18,8 +18,11 @@ A description of the settable variables for this role should go here, including 
 List of variables that need to be specified at the time of execution.
 
 hostname: "HOSTNAME"
+
 domain: "DOMAIN_NAME"
+
 zmpasswd: "SECUREPASSWORD"
+
 zmnetwork: "192.168.200.0/8"
 
 Dependencies
