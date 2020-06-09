@@ -38,7 +38,7 @@ Including an example of how to use your role (for instance, with variables passe
     - hosts: servers
       roles:
          - role: harpreet.zimbra
-	   	hostname: "HOSTNAME"
+	       hostname: "HOSTNAME"
            domain: "DOMAIN_NAME"
            zmpasswd: "SECUREPASSWORD"
            zmnetwork: "192.168.200.0/8"
