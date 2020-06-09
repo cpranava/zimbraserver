@@ -42,11 +42,15 @@
     owner: zimbra
     group: zimbra
 
+- command: id
+  become_user: zimbra
+  register: output
+- debug: var=output
+
 - name: 'Starting Zimbra OSE Services'
   shell: ./zmcontrol start
   args:
     chdir: '/opt/zimbra/bin/'
-  become: true
   become_user: zimbra
   ignore_errors: true
 
