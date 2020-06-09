@@ -26,6 +26,7 @@ multidist:
   - sqlite 
   - libaio 
   - libstdc++ 
+  - firewalld
 
 centos_repo:
   - deltarpm
