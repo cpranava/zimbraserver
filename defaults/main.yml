@@ -1,0 +1,36 @@
+---
+#default vars
+absent:
+  - postfix
+  - sendmail
+
+centos:
+  - pyzor
+  - perl-Razor-Agent
+
+multidist:
+  - vim
+  - wget
+  - unzip
+  - sysstat
+  - sudo
+  - ca-certificates
+  - git
+  - libidn 
+  - gmp 
+  - perl
+  - perl-core 
+  - nmap 
+  - net-tools
+  - sudo 
+  - sqlite 
+  - libaio 
+  - libstdc++ 
+
+centos_repo:
+  - deltarpm
+  - libselinux-python
+  - policycoreutils-python
+  - epel-release
+ 
+baseline:
