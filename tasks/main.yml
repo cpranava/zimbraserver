@@ -42,13 +42,6 @@
     owner: zimbra
     group: zimbra
 
-- command: id
-  become: true
-  become_method: su
-  become_user: zimbra
-  register: output
-- debug: var=output
-
 - name: 'Starting Zimbra OSE Services'
   shell: ./zmcontrol start
   args:
